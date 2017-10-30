@@ -41,6 +41,8 @@ public class C extends Canvas {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
+
+			// Probability of rain-drop, should yield < 50/INTERVAL drops per second
 			// With some probability, add a rain-drop on a random location and initialize the timer 
 			if (Math.random() < 1.0/INTERVAL) {
 				lastX = (int) (Math.random() * WIDTH);
