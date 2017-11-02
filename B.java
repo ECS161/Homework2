@@ -52,7 +52,7 @@ public class B extends Canvas {
 				for (int i = 0; i < SCALE; i++) {
 					for (int j = 0; j < SCALE; j++) {
 						g.drawLine(SCALE*x + i, SCALE*y + j, SCALE*x + i, SCALE*y + j);
-					}
+					}	
 				}
 			}
 		}
